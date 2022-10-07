@@ -27,6 +27,7 @@ public class WebGLSendTransactionExample : MonoBehaviour
             Debug.Log(response);
             hash.text = response;
 
+
         } catch (Exception e) {
             Debug.LogException(e, this);
         }

@@ -22,6 +22,7 @@ public class WebLogin : MonoBehaviour
     {
         Web3Connect();
         OnConnected();
+       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     async private void OnConnected()
