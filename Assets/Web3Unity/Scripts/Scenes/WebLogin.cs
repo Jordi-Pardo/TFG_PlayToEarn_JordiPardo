@@ -20,9 +20,9 @@ public class WebLogin : MonoBehaviour
 
     public void OnLogin()
     {
-        Web3Connect();
-        OnConnected();
-       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //Web3Connect();
+        //OnConnected();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     async private void OnConnected()
